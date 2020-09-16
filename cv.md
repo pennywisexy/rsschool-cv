@@ -2,7 +2,7 @@
 
 ---
 
-> Hi, I am Alexander and I am the future owner of Google
+> Hi, I am Alexander and I am the future owner of Google.
 
 ---
 
@@ -14,3 +14,9 @@
 industrial robots and robotic complexes**;
 
     *Minor: Awesomeology*
+
+    Experience
+---------------
+
+I worked for 3 months on assignment and was taken into the army.
+
