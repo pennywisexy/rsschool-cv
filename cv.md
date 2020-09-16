@@ -20,3 +20,10 @@ industrial robots and robotic complexes**;
 
 I worked for 3 months on assignment and was taken into the army.
 
+Technical SKills
+--------------------
+
+Programming Languages
+:   **first-lang:** Phyton (read a book and taught video tutorials).
+
+:   **second-lang:** After learning python for a while, I switched to **JS**. I         began     to teach him and still teach him. I also got acquainted with **html** and **css**     in parallel.
