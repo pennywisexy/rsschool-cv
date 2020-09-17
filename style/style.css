@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.body {
+  max-width: 1024px;
+  min-width: 600px;
+  width: 70%;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.body h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #eaecef;
+}
+
+.header {
+  width: 100%;
+}
+
+.alexander-snitko {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    height: .25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #e1e4e8;
+    border: 0;
+}
+
+.header blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.author_img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.main {
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.highlight {
+    background-color: #f5f8fc;
+}
+
+.footer a {
+    color: #0366d6;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    color: #6a737d;
+    text-decoration: none;
+    background-color: transparent;
+}
