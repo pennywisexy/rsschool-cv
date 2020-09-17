@@ -8,7 +8,7 @@
 
 ## Education
 
-2014-2019 (expected)
+2014-2019
 : Belarusian National Technical University
 **Faculty of Information Technology and Robotics,
 industrial robots and robotic complexes**;
