@@ -1,1 +1,1 @@
-<https://pennywisexy.github.io/rsschool-cv/cv>
+<https://pennywisexy.github.io/rsschool-cv/>
