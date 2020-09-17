@@ -20,8 +20,98 @@
         </header>
 
         <main class="main">
-            <ol>
+            <h2 id="education">Education</h2>
 
+<dl>
+  <dt>2014-2019 (expected)</dt>
+  <dd>Belarusian National Technical University
+<strong>Faculty of Information Technology and Robotics,
+industrial robots and robotic complexes</strong>;
+
+    <p><em>Minor: Awesomeology</em></p>
+  </dd>
+</dl>
+
+<h2 id="experience">Experience</h2>
+
+<p>I worked for 3 months on assignment and was taken into the army.</p>
+
+<h2 id="technical-skills">Technical SKills</h2>
+
+<dl>
+  <dt>Programming Languages</dt>
+  <dd><strong>first-lang:</strong> Phyton (read a book and taught video tutorials).</dd>
+  <dd>
+    <p><strong>second-lang:</strong> After learning python for a while, I switched to <strong>JS</strong>. I         began     to teach him and still teach him. I also got acquainted with <strong>html</strong> and <strong>css</strong>     in parallel.</p>
+  </dd>
+</dl>
+
+<h2 id="sample-code">Sample Code</h2>
+
+<p>Example code of score for my social network in react:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let store = {
+  _state: {
+    profilePage: {
+      posts: [
+        { id: 1, message: "Hi hi!!!" },
+        { id: 2, message: "it's my first post." },
+      ],
+      newPostText: "ItSenior^)^)^)",
+    },
+
+    _callSubscriber() {
+      console.log("state changed");
+    },
+
+    messagesPage: {
+      dialogs: [
+        { id: 1, name: "Kolyan" },
+        { id: 2, name: "Morzh" },
+        { id: 3, name: "Snikipiki" },
+        { id: 4, name: "AGL" },
+        { id: 5, name: "Miner" },
+        { id: 6, name: "Foku" },
+      ],
+
+      messages: [
+        { id: 1, message: "Hi hi!!!" },
+        { id: 2, message: "Saaaaab bra" },
+        { id: 3, message: "Yau" },
+        { id: 4, message: "Yau" },
+        { id: 5, message: "Yau" },
+      ],
+
+      newMessageBody: "",
+        },
+    },
+
+      getState() {
+        return this._state;
+      },
+    
+      subscribe(observer) {
+        this._callSubscriber = observer;
+      },
+    
+      dispatch(action) {
+        this._state.profilePage = profileReducer( this._state.profilePage, action );
+        this._state.messagesPage = dialogsReducer( this._state.messagesPage, action );
+        this._state.sidebar = sidebarReducer( this._state.sidebar, action );
+        this._callSubscriber(this.getState);
+      },
+    };
+</code></pre></div></div>
+
+<h2 id="about-english">About English</h2>
+
+<p>I learn English on my own, taking information from all the resources, such as videos, games, applications and communication on social networks.</p>
+
+<h2 id="other-information">Other information</h2>
+
+<p>I graduated from the BNTU Faculty of Information Technology and Robotics. I worked for 3 months on assignment and was taken into the army. Now I am learning javascript just because I like it. And I want to get into automated testing. Since I think this is an important stage in the software life cycle for the user and it is more interesting to me. My main qualities are energy and quick learning. And the main drawback is probably excessive emotionality. I love reading books and boxing, but lately all my free time is programming. My biggest and most rewarding achievement I think is serving in the army.</p>
+
+<hr />
         </main>
 
         <footer class="footer">
